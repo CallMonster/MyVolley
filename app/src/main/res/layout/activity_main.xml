@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/SrBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="StringRequest"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/HeaderSrBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Header StringRequest"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:id="@+id/reqView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/JumpJOActBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="跳转jsonRequest"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/JumpImgReqActBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="跳转ImageRequest"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/JumpXMLReqActBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="跳转XMLRequest"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/JumpGsonReqActBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="跳转GsonRequest"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/JumpCacheReqActBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="跳转CacheRequest"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/JumpListReqActBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="跳转 列表Arr加载IMG Request"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/JumpMultipartReqActBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="跳转 Multipar Request"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/JumpStringReqActBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="跳转 StringJson Request"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/JumpHttpsReqActBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="跳转 Https Request"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/statusJsonBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="跳转 静态json Request"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
